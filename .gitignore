@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- YOLO / training outputs (large + regenerable) ---
+runs/
+*.onnx
+wandb/
+
+# --- Roboflow download artifacts ---
+*.zip
+datasets/**/roboflow.zip
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# ==========================================================================
+# NOTE: We intentionally DO NOT ignore the dataset images/labels or the
+# trained .pt weights — the lab requires them in the final GitHub repo:
+#   - datasets/           (>=300 images + YOLO-format labels)
+#   - models/*.pt         (trained weights: best_v1.pt, best_v2.pt)
+#   - results/            (charts, metrics, failure cases)
+# Fine-tuned YOLO11n/s weights are ~5-20 MB, well under GitHub's 100 MB limit.
+# ==========================================================================

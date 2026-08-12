@@ -1,0 +1,24 @@
+# Bahraini Food Detector — Python dependencies
+# Install with:  pip install -r requirements.txt
+#
+# Note: `ultralytics` pulls in PyTorch automatically. If you have an NVIDIA GPU
+# and want CUDA acceleration, install the matching torch build first from
+# https://pytorch.org/get-started/locally/  then install the rest.
+
+ultralytics>=8.3.0        # YOLO11 training / inference
+roboflow>=1.1.9           # download the labeled dataset from Roboflow
+
+# data + plotting (dataset analysis, error analysis)
+numpy
+pandas
+matplotlib
+pyyaml
+pillow
+opencv-python
+
+# app + deployment
+streamlit>=1.36
+
+# optional: export model to ONNX for faster/portable inference
+onnx
+onnxruntime

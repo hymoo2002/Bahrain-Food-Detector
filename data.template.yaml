@@ -1,0 +1,35 @@
+# ==========================================================================
+# data.yaml — YOLO dataset config  (TEMPLATE / REFERENCE)
+# ==========================================================================
+# When you export your labeled dataset from Roboflow in a YOLO format
+# (choose "YOLOv11" — or "YOLOv8", the label format is identical), Roboflow
+# generates this file for you inside the download folder. You normally do NOT
+# edit it by hand. This template just shows what it should look like and lists
+# the 10 classes so everyone on the team uses the EXACT same names.
+#
+# The `path`/`train`/`val`/`test` lines point to the image folders. Roboflow's
+# generated file usually uses relative paths like `train/images`. If YOLO can't
+# find them, set `path:` to the ABSOLUTE dataset folder (see notebook configs).
+# ==========================================================================
+
+path: ./datasets/bahraini-food   # dataset root (edit to your export folder)
+train: train/images
+val: valid/images
+test: test/images
+
+# Number of classes
+nc: 10
+
+# Class names — MUST be identical everywhere (Roboflow labels, notebooks, app).
+# Replace / reorder to match the 10 Bahraini foods you actually chose.
+names:
+  - Balaleet
+  - Fried Fish
+  - Luqaimat
+  - Samboosa
+  - Machboos
+  - Harees
+  - Bahraini Halwa
+  - Nakhi
+  - Aqeeli Cake
+  - Kebab
