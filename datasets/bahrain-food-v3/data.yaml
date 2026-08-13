@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Balaleet', 'Fried Fish', 'Halwa', 'Harees', 'Kebab', 'Luqaimat', 'Machboos', 'Mattai', 'Nakhi', 'Samboosa']
+
+roboflow:
+  workspace: hymoo-2002
+  project: bahrain-food
+  version: 3
+  license: Private
+  url: https://app.roboflow.com/hymoo-2002/bahrain-food/3
