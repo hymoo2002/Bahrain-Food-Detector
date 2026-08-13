@@ -137,7 +137,7 @@ if not images:
 
 # ---- run detection ----
 for name, img in images:
-    result = model.predict(np.array(img), conf=conf, iou=iou, verbose=False)[0]
+    result = model.predict(img, conf=conf, iou=iou, verbose=False)[0]  # pass PIL (RGB) so colors are correct
     annotated = result.plot()[:, :, ::-1]  # BGR -> RGB
 
     c1, c2 = st.columns([3, 2])
