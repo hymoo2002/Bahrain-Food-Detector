@@ -1,0 +1,13 @@
+image,failure_type,predicted,ground_truth,what_went_wrong,why_it_happened,new_data_that_helps
+CIdYOCMVAAALofH_jpg.rf.0504ee36bbf9fd5582ef475aeb4ce0f7.jpg,false_negative,Kebab,"Kebab, Kebab",,,
+Screenshot-2026-08-12-170104_jpg.rf.0367997814689e4fb68f135f91e27c9e.jpg,false_negative,Mattai,"Mattai, Mattai, Mattai",,,
+Screenshot-2026-08-12-181804_jpg.rf.9d7898008fbe1aaf88bb761d88256fd1.jpg,false_negative,,Mattai,,,
+Screenshot-2026-08-12-182333_jpg.rf.0a9b60eac787a7d3abb0b6cb29d95c50.jpg,false_negative,Mattai,"Mattai, Mattai",,,
+WhatsApp-Image-2026-08-12-at-3-41-20-PM-2-_jpg.rf.dfd453e5767e3486520825be2bc247d8.jpg,"false_negative, false_positive, poor_localization","Kebab, Kebab, Kebab, Kebab, Kebab","Kebab, Kebab, Kebab",,,
+WhatsApp-Image-2026-08-13-at-10-22-25-AM_jpeg.rf.a91944ef4f5e60e380769577628f1cf7.jpg,"false_negative, poor_localization","Nakhi, Nakhi",Nakhi,,,
+images-22-_jpg.rf.297b250ab20956253258fd5d9379c93b.jpg,false_negative,,Fried Fish,,,
+images-25-_jpg.rf.a185c8dfb51dfadb1bac7c13a5f33367.jpg,false_negative,,Samboosa,,,
+images-3-_jpg.rf.49fc6a51b60f33862721aa065dafa258.jpg,"false_negative, wrong_class",Nakhi,Luqaimat,,,
+images-30-_jpg.rf.f10e464fab7615144c51692cf44b6c61.jpg,false_negative,,Machboos,,,
+images-7-_jpg.rf.5a293bfc697ec2fcd761b136069e6070.jpg,"false_negative, false_positive",Nakhi,Luqaimat,,,
+images_jpg.rf.6d22c90cb2d5d54e16132d351fbc8d56.jpg,false_negative,,Kebab,,,
