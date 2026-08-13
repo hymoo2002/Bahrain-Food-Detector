@@ -2,7 +2,7 @@
 
 Teach an AI to **see** Bahraini food. This is an object-detection project: give it a
 photo of a meal and it draws boxes around the local dishes it recognizes (samboosa,
-machboos, luqaimat, dates…). Built with **YOLO11 + Python**, dataset labeled in
+machboos, luqaimat, dates…). Built with **YOLO26 + Python**, dataset labeled in
 **Roboflow**, demo served with **Streamlit**.
 
 > Workflow: **Collect → Annotate → Fine-tune → Evaluate → Break → Improve → Deploy → Monitor**
@@ -83,7 +83,7 @@ annotation examples. Saves charts to `results/`.
 
 ### Step 3 — Fine-tune v1 + evaluate → `notebooks/02_training.ipynb`
 Shows the **baseline** (pretrained COCO model can't name Bahraini food), fine-tunes
-**YOLO11**, then evaluates on the **test** set (precision, recall, mAP50, mAP50-95,
+**YOLO26**, then evaluates on the **test** set (precision, recall, mAP50, mAP50-95,
 overall + per class). Saves `models/best_v1.pt`.
 
 ### Step 4 — Error analysis → `notebooks/03_testing_and_deployment.ipynb`
@@ -122,7 +122,7 @@ API key empty.
 
 **Change the training recipe** (`02_training.ipynb`, cell 3):
 ```python
-BASE_MODEL = "yolo11s.pt"   # yolo11n.pt = faster/smaller, yolo11m.pt = more accurate
+BASE_MODEL = "yolo26s.pt"   # yolo26n.pt = faster/smaller, yolo26m.pt = more accurate
 EPOCHS     = 80             # raise if loss/mAP still improving; lower to iterate faster
 IMGSZ      = 640            # 640 is standard; 960 can help tiny items (needs more VRAM)
 BATCH      = 16             # lower to 8/4 if you get a GPU out-of-memory error; -1 = auto
@@ -179,7 +179,7 @@ YOLO("runs/finetune_v1/weights/last.pt").train(resume=True)
 ---
 
 ## 📝 Notes
-- Uses **YOLO11** (Ultralytics). Swap `BASE_MODEL` for any `yolo11{n,s,m,l,x}.pt`.
+- Uses **YOLO26** (Ultralytics). Swap `BASE_MODEL` for any `yolo26{n,s,m,l,x}.pt`.
 - Roboflow can also train a model for you ("Roboflow Train"). It's a fine *extra*
   baseline, but this lab asks you to run the fine-tuning yourself so you get the
   baseline → v1 → v2 comparison, error analysis, and experiment tracking.

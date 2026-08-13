@@ -1,7 +1,7 @@
 """
 Bahraini Food Detector — Streamlit app
 ======================================
-Upload a food photo (or use your camera) and the fine-tuned YOLO11 model draws
+Upload a food photo (or use your camera) and the fine-tuned YOLO26 model draws
 boxes around the Bahraini dishes it recognizes.
 
 Run from the repo root:
@@ -23,10 +23,11 @@ import numpy as np
 from PIL import Image
 import streamlit as st
 
-# make src/ importable
+# import our src/utils.py explicitly (never clashes with another 'utils')
 ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT / "src"))
-import utils as U  # noqa: E402
+import importlib.util as _ilu
+_uspec = _ilu.spec_from_file_location('food_utils', str(ROOT / 'src' / 'utils.py'))
+U = _ilu.module_from_spec(_uspec); _uspec.loader.exec_module(U)  # noqa: E402
 
 MODELS_DIR = ROOT / "models"
 RESULTS_DIR = ROOT / "results"

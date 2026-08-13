@@ -5,7 +5,7 @@
 # and want CUDA acceleration, install the matching torch build first from
 # https://pytorch.org/get-started/locally/  then install the rest.
 
-ultralytics>=8.3.0        # YOLO11 training / inference
+ultralytics>=8.3.0        # YOLO26 training / inference (upgrade for YOLO26: pip install -U ultralytics)
 roboflow>=1.1.9           # download the labeled dataset from Roboflow
 
 # data + plotting (dataset analysis, error analysis)
