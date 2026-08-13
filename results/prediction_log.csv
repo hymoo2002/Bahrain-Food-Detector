@@ -1,0 +1,28 @@
+timestamp,image,class,confidence
+2026-08-13 10:31:22,Balaleet-2-scaled.jpg,Nakhi,0.3021
+2026-08-13 10:31:22,Balaleet-2-scaled.jpg,Nakhi,0.2877
+2026-08-13 10:31:22,Balaleet-2-scaled.jpg,Machboos,0.134
+2026-08-13 10:31:22,Balaleet-2-scaled.jpg,Machboos,0.132
+2026-08-13 10:31:22,Balaleet-2-scaled.jpg,Balaleet,0.1131
+2026-08-13 10:31:22,Balaleet-2-scaled.jpg,Harees,0.107
+2026-08-13 10:31:22,Kebab.webp,Fried Fish,0.7883
+2026-08-13 10:31:22,Kebab.webp,Fried Fish,0.5806
+2026-08-13 10:31:22,Kebab.webp,Fried Fish,0.3491
+2026-08-13 10:31:22,Kebab.webp,Halwa,0.2921
+2026-08-13 10:31:22,Kebab.webp,Machboos,0.2308
+2026-08-13 10:31:22,Kebab.webp,Fried Fish,0.1266
+2026-08-13 10:31:22,Kebab.webp,Fried Fish,0.0901
+2026-08-13 10:31:23,fries safi.png,Fried Fish,0.8134
+2026-08-13 10:31:23,fries safi.png,Machboos,0.2993
+2026-08-13 10:31:52,camera.jpg,Nakhi,0.7999
+2026-08-13 10:31:52,camera.jpg,Halwa,0.6189
+2026-08-13 10:31:52,camera.jpg,Nakhi,0.4854
+2026-08-13 10:31:52,camera.jpg,Machboos,0.4479
+2026-08-13 10:31:52,camera.jpg,Fried Fish,0.1117
+2026-08-13 10:34:53,camera.jpg,Nakhi,0.7999
+2026-08-13 10:34:53,camera.jpg,Halwa,0.6189
+2026-08-13 10:34:57,camera.jpg,Nakhi,0.7999
+2026-08-13 10:34:57,camera.jpg,Halwa,0.6189
+2026-08-13 10:34:57,camera.jpg,Nakhi,0.4854
+2026-08-13 10:34:57,camera.jpg,Machboos,0.4479
+2026-08-13 10:34:57,camera.jpg,Fried Fish,0.1117
