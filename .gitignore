@@ -11,6 +11,13 @@ runs/
 *.onnx
 wandb/
 
+# Ultralytics auto-downloaded pretrained base weights (re-download on demand;
+# they land in the working dir, e.g. notebooks/yolo11s.pt). Our OWN trained
+# weights are named models/best_v1.pt / best_v2.pt / model.pt, so keep those.
+yolo11*.pt
+yolov8*.pt
+yolov5*.pt
+
 # --- Roboflow download artifacts ---
 *.zip
 datasets/**/roboflow.zip

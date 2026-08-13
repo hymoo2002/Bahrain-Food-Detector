@@ -24,7 +24,7 @@ Bahrain Food Detector/
 │   └── app.py                    # Streamlit app (upload photo → detections)
 ├── src/
 │   └── utils.py                  # shared helpers (stats, drawing, error analysis)
-├── datasets/                     # <- your Roboflow export lands here (data.yaml + images)
+├── datasets/                     # <- Roboflow export lands here (data.yaml + images)
 ├── models/                       # <- trained weights: best_v1.pt, best_v2.pt, model.pt
 ├── results/                      # <- charts, metrics, failure cases, prediction log
 └── images-mixed/                 # a few sample photos for quick demos
