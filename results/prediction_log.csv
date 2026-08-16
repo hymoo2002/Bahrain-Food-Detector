@@ -6,3 +6,6 @@ timestamp,image,class,confidence
 2026-08-13 14:06:32,camera.jpg,Samboosa,0.0673
 2026-08-13 14:07:03,camera.jpg,Samboosa,0.2624
 2026-08-13 14:07:03,camera.jpg,Samboosa,0.2617
+2026-08-13 16:52:33,camera.jpg,Fried Fish,0.7577
+2026-08-13 16:52:33,camera.jpg,Harees,0.5002
+2026-08-13 16:52:33,camera.jpg,Balaleet,0.399
